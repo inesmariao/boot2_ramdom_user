@@ -1,12 +1,12 @@
 import './App.css'
-import { RandomUser } from './components/RandomUser';
+import { RandomUserFetch } from './components/RandomUserFetch';
 
 
 function App() {
 
   return (
     <div className='text-white'>
-      <RandomUser />
+      <RandomUserFetch />
     </div>
   )
 }
